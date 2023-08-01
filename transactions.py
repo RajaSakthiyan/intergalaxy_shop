@@ -1,8 +1,11 @@
 '''
-Created on 12-Nov-2019
+Created on 11-Nov-2019
 
-@author: sakthi-mahesh
+@version: Python3.5
+@author: Rajasakthiyan
+@contact: rajasakthiyan.g@gmail.com
 '''
+
 import unittest
 
 from conversions import InterGalacticConversion
