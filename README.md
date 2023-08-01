@@ -1,5 +1,5 @@
 ## Problem One: Merchant's Guide to the Galaxy - README
----
+
 Problem One: Merchant&#39;s Guide to the Galaxy
  
 You decided to give up on earth after the latest financial collapse left 99.99% of the
@@ -79,7 +79,7 @@ I have no idea what you are talking about<br>
 
 
 ## Solutions
----    
+
     Each module contains its own unit-test impleted using `unitest` module.
 
 ### main.py
