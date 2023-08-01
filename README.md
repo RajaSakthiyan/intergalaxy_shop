@@ -1,4 +1,4 @@
-## Problem Definition: Merchant's Guide to the Galaxy - README
+## Problem Definition: Merchant's Guide to the Galaxy
 
 Problem One: Merchant&#39;s Guide to the Galaxy
  
