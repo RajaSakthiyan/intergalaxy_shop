@@ -1,5 +1,5 @@
 
-from intergalaxy_shop.transactions import transaction
+from transactions import transaction
 
 inputs = '''
     glob is I

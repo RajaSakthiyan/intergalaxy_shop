@@ -5,9 +5,9 @@ Created on 12-Nov-2019
 '''
 import unittest
 
-from intergalaxy_shop.conversions import InterGalacticConversion
-from intergalaxy_shop.numerals import InterGalacticNumeral
-from intergalaxy_shop.units import Units
+from conversions import InterGalacticConversion
+from numerals import InterGalacticNumeral
+from units import Units
 
 
 class Translation(object):

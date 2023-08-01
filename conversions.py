@@ -8,7 +8,7 @@ Created on 11-Nov-2019
 import re
 import unittest
 
-from intergalaxy_shop.numerals import RomanNumeral
+from numerals import RomanNumeral
 
 
 class InvalidRomanLiterals(Exception):
@@ -62,7 +62,7 @@ class InterGalacticConversion(object):
 class TestConversion(unittest.TestCase):
 
     def setUp(self):
-        from intergalaxy_shop.numerals import InterGalacticNumeral
+        from .numerals import InterGalacticNumeral
         ignumeral = InterGalacticNumeral(
                             glob="I", prok="V",
                             pish="X", tegj="L"
