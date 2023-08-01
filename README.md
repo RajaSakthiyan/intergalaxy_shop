@@ -25,7 +25,8 @@ Symbol Value
 |C |100|
 |D|500|
 |M|1000|
- 
+
+
 Numbers are formed by combining symbols together and adding the values. For
 example, MMVI is 1000 + 1000 + 5 + 1 = 2006. Generally, symbols are placed in order
 of value, starting with the largest values. When smaller values precede larger values,
