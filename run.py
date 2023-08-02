@@ -6,7 +6,7 @@ Created on 11-Nov-2019
 @contact: rajasakthiyan.g@gmail.com
 '''
 
-from intergalaxy_shop.transactions import transaction
+from intergalaxy_shop import transaction
 
 inputs = '''
     glob is I
