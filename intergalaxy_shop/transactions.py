@@ -8,9 +8,9 @@ Created on 11-Nov-2019
 
 import unittest
 
-from conversions import InterGalacticConversion
-from numerals import InterGalacticNumeral
-from units import Units
+from .conversions import InterGalacticConversion
+from .numerals import InterGalacticNumeral
+from .units import Units
 
 
 class Translation(object):

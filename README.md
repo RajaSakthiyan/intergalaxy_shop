@@ -82,11 +82,11 @@ I have no idea what you are talking about<br>
 
     Each module contains its own unit-test impleted using `unitest` module.
 
-### main.py
+### run.py
 
 This is the verification file where we can check with requirement against program. This is starting file to begin the code review.
 
-### numerials.py
+### intergalaxy_shop/numerials.py
 
 This is the module file contains number system of and its corresponding mapping with other similar number system. I said similar because each number system classes are inherited by `Numeral`. I added descriptor pattern for `Symbol` for making it non-data (read-only).
 
@@ -101,16 +101,16 @@ This auto-initiate pattern identified during the refactoring of code and one int
 ```
 This helps to identify its last mapping of the given symbol for a number-system.
 
-### units.py
+### intergalaxy_shop/units.py
 
 this is helper module contains class `Units` for treating abstraction of calculating credits for the query. (FYI, query is never coupled it here). It is composite on translation class.
 
-### conversions.py
+### intergalaxy_shop/conversions.py
 
 This module contains two class and one `RomanNumerialRules` is made to composite over `InterGalacticConversion`.
 The class `RomanNumerialRules` perform both validating Roman letters by regex. (regex pattern is taken from internet due to time limitation) and iterate through letters and yield right numerical weightage. `InterGalacticConversion` contains conversion and credit evaluating methods.
 
-### transaction.py
+### intergalaxy_shop/transaction.py
 
 This is module where it handle mostly filtering out words for the query with keyword and keeps the word when it is attribute of `Units` and `Numerals`. `Translation` class responsible for getting input both conversion and credit evaluation. `Transsaction` is the class where we pass question and get the right answer based on `Tranlation` initiation. I added one factory function `main.py` for your reference and code review.
 

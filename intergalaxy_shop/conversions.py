@@ -8,7 +8,7 @@ Created on 11-Nov-2019
 import re
 import unittest
 
-from numerals import RomanNumeral
+from .numerals import RomanNumeral
 
 
 class InvalidRomanLiterals(Exception):
